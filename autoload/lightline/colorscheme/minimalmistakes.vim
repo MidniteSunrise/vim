@@ -1,8 +1,7 @@
 " =============================================================================
 " Filename: autoload/lightline/colorscheme/minimalmistakes.vim
-" Author: adamalbrecht
-" License: MIT License
-" Last Change: 2018/04/11
+" Author: Minimal-Mistakes
+" License: GPL-TRC License
 " =============================================================================
 
 let s:black    = g:minimalmistakes#palette.bg

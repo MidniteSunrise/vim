@@ -1,16 +1,9 @@
-" MinimalMistakes Theme: {{{
+" Minimal-Mistakes Theme: {{{
 "
-" https://github.com/zenorocha/minimalmistakes-theme
+" Copyright 2022, All rights reserved
 "
-" Copyright 2016, All rights reserved
+" Code licensed under the GPL-TRC license
 "
-" Code licensed under the MIT license
-" http://zenorocha.mit-license.org
-"
-" @author Trevor Heins <@heinst>
-" @author Éverton Ribeiro <nuxlli@gmail.com>
-" @author Derek Sifford <dereksifford@gmail.com>
-" @author Zeno Rocha <hi@zenorocha.com>
 scriptencoding utf8
 " }}}
 

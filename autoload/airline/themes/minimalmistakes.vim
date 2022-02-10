@@ -1,13 +1,9 @@
-" MinimalMistakes Airline Theme: {{{
-"
-" Copyright 2016, All rights reserved
-"
-" Code licensed under the MIT license
-" http://zenorocha.mit-license.org
-"
-" @author Extrante <extrante@gmail.com>
-" @author Zeno Rocha <hi@zenorocha.com>
-"}}}
+" =============================================================================
+" Filename: autoload/airline/colorscheme/minimalmistakes.vim
+" Author: Minimal-Mistakes
+" License: GPL-TRC License
+" =============================================================================
+
 " Helpers: {{{
 
 " Takes a foreground color name, background color name, and optionally one or
