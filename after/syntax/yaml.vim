@@ -1,12 +1,12 @@
-if dracula#should_abort('yaml')
+if minimalmistakes#should_abort('yaml')
     finish
 endif
 
-hi! link yamlAlias           DraculaGreenItalicUnderline
-hi! link yamlAnchor          DraculaPinkItalic
-hi! link yamlBlockMappingKey DraculaCyan
-hi! link yamlFlowCollection  DraculaPink
+hi! link yamlAlias           MinimalMistakesGreenItalicUnderline
+hi! link yamlAnchor          MinimalMistakesPinkItalic
+hi! link yamlBlockMappingKey MinimalMistakesCyan
+hi! link yamlFlowCollection  MinimalMistakesPink
 hi! link yamlFlowIndicator   Delimiter
-hi! link yamlNodeTag         DraculaPink
-hi! link yamlPlainScalar     DraculaYellow
+hi! link yamlNodeTag         MinimalMistakesPink
+hi! link yamlPlainScalar     MinimalMistakesYellow
 

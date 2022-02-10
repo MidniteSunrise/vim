@@ -1,4 +1,4 @@
-if dracula#should_abort('rust')
+if minimalmistakes#should_abort('rust')
     finish
 endif
 

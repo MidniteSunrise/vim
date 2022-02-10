@@ -1,11 +1,16 @@
-" Minimal-Mistakes Theme: {{{
+" MinimalMistakes Theme: {{{
 "
-" https://github.com/Minimal-Mistakes/vim
+" https://github.com/zenorocha/minimalmistakes-theme
 "
-" Copyright 2022, All rights reserved
+" Copyright 2016, All rights reserved
 "
-" Code licensed under the GPL-TRC license
+" Code licensed under the MIT license
+" http://zenorocha.mit-license.org
 "
+" @author Trevor Heins <@heinst>
+" @author Éverton Ribeiro <nuxlli@gmail.com>
+" @author Derek Sifford <dereksifford@gmail.com>
+" @author Zeno Rocha <hi@zenorocha.com>
 scriptencoding utf8
 " }}}
 
@@ -18,7 +23,7 @@ if v:version > 580
   endif
 endif
 
-let g:colors_name = 'minimal-mistakes'
+let g:colors_name = 'minimalmistakes'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
@@ -267,7 +272,7 @@ if has('nvim')
   hi! link LspDiagnosticsUnderlineHint DiagnosticUnderlineHint
   hi! link LspDiagnosticsUnderlineInformation DiagnosticUnderlineInfo
   hi! link LspDiagnosticsUnderlineWarning DiagnosticUnderlineWarn
-  
+
   hi! link DiagnosticInfo MinimalMistakesCyan
   hi! link DiagnosticHint MinimalMistakesCyan
   hi! link DiagnosticError MinimalMistakesError

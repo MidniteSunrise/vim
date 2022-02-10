@@ -1,21 +1,21 @@
-if dracula#should_abort('lua')
+if minimalmistakes#should_abort('lua')
     finish
 endif
 
-hi! link luaFunc  DraculaCyan
-hi! link luaTable DraculaFg
+hi! link luaFunc  MinimalMistakesCyan
+hi! link luaTable MinimalMistakesFg
 
 " tbastos/vim-lua {{{
 
-hi! link luaBraces       DraculaFg
+hi! link luaBraces       MinimalMistakesFg
 hi! link luaBuiltIn      Constant
 hi! link luaDocTag       Keyword
-hi! link luaErrHand      DraculaCyan
-hi! link luaFuncArgName  DraculaOrangeItalic
+hi! link luaErrHand      MinimalMistakesCyan
+hi! link luaFuncArgName  MinimalMistakesOrangeItalic
 hi! link luaFuncCall     Function
 hi! link luaLocal        Keyword
 hi! link luaSpecialTable Constant
-hi! link luaSpecialValue DraculaCyan
+hi! link luaSpecialValue MinimalMistakesCyan
 
 " }}}
 

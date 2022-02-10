@@ -1,15 +1,15 @@
-if dracula#should_abort('css')
+if minimalmistakes#should_abort('css')
     finish
 endif
 
 hi! link cssAttrComma         Delimiter
-hi! link cssAttrRegion        DraculaPink
-hi! link cssAttributeSelector DraculaGreenItalic
+hi! link cssAttrRegion        MinimalMistakesPink
+hi! link cssAttributeSelector MinimalMistakesGreenItalic
 hi! link cssBraces            Delimiter
 hi! link cssFunctionComma     Delimiter
-hi! link cssNoise             DraculaPink
-hi! link cssProp              DraculaCyan
-hi! link cssPseudoClass       DraculaPink
-hi! link cssPseudoClassId     DraculaGreenItalic
-hi! link cssUnitDecorators    DraculaPink
-hi! link cssVendor            DraculaGreenItalic
+hi! link cssNoise             MinimalMistakesPink
+hi! link cssProp              MinimalMistakesCyan
+hi! link cssPseudoClass       MinimalMistakesPink
+hi! link cssPseudoClassId     MinimalMistakesGreenItalic
+hi! link cssUnitDecorators    MinimalMistakesPink
+hi! link cssVendor            MinimalMistakesGreenItalic

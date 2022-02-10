@@ -1,4 +1,4 @@
-if dracula#should_abort('vim')
+if minimalmistakes#should_abort('vim')
     finish
 endif
 

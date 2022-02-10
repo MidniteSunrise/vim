@@ -18,7 +18,7 @@ let g:minimalmistakes#palette.green     = ['#59ff59',  84]
 let g:minimalmistakes#palette.orange    = ['#ff9c59', 215]
 let g:minimalmistakes#palette.pink      = ['#ff59f9', 212]
 let g:minimalmistakes#palette.purple    = ['#9059ff', 141]
-let g:minimalmistakes#palette.red       = ['#ff5959', 203]
+let g:minimalmistakes#palette.red       = ['#FF5555', 203]
 let g:minimalmistakes#palette.yellow    = ['#ffff59', 228]
 
 "

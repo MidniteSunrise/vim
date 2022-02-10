@@ -1,38 +1,38 @@
-if dracula#should_abort('perl')
+if minimalmistakes#should_abort('perl')
     finish
 endif
 
 " Regex
-hi! link perlMatchStartEnd       DraculaRed
+hi! link perlMatchStartEnd       MinimalMistakesRed
 
 " Builtin functions
-hi! link perlOperator            DraculaCyan
-hi! link perlStatementFiledesc   DraculaCyan
-hi! link perlStatementFiles      DraculaCyan
-hi! link perlStatementFlow       DraculaCyan
-hi! link perlStatementHash       DraculaCyan
-hi! link perlStatementIOfunc     DraculaCyan
-hi! link perlStatementIPC        DraculaCyan
-hi! link perlStatementList       DraculaCyan
-hi! link perlStatementMisc       DraculaCyan
-hi! link perlStatementNetwork    DraculaCyan
-hi! link perlStatementNumeric    DraculaCyan
-hi! link perlStatementProc       DraculaCyan
-hi! link perlStatementPword      DraculaCyan
-hi! link perlStatementRegexp     DraculaCyan
-hi! link perlStatementScalar     DraculaCyan
-hi! link perlStatementSocket     DraculaCyan
-hi! link perlStatementTime       DraculaCyan
-hi! link perlStatementVector     DraculaCyan
+hi! link perlOperator            MinimalMistakesCyan
+hi! link perlStatementFiledesc   MinimalMistakesCyan
+hi! link perlStatementFiles      MinimalMistakesCyan
+hi! link perlStatementFlow       MinimalMistakesCyan
+hi! link perlStatementHash       MinimalMistakesCyan
+hi! link perlStatementIOfunc     MinimalMistakesCyan
+hi! link perlStatementIPC        MinimalMistakesCyan
+hi! link perlStatementList       MinimalMistakesCyan
+hi! link perlStatementMisc       MinimalMistakesCyan
+hi! link perlStatementNetwork    MinimalMistakesCyan
+hi! link perlStatementNumeric    MinimalMistakesCyan
+hi! link perlStatementProc       MinimalMistakesCyan
+hi! link perlStatementPword      MinimalMistakesCyan
+hi! link perlStatementRegexp     MinimalMistakesCyan
+hi! link perlStatementScalar     MinimalMistakesCyan
+hi! link perlStatementSocket     MinimalMistakesCyan
+hi! link perlStatementTime       MinimalMistakesCyan
+hi! link perlStatementVector     MinimalMistakesCyan
 
 " Highlighting for quoting constructs, tied to existing option in vim-perl
 if get(g:, 'perl_string_as_statement', 0)
-  hi! link perlStringStartEnd DraculaRed
+  hi! link perlStringStartEnd MinimalMistakesRed
 endif
 
 " Signatures
-hi! link perlSignature           DraculaOrangeItalic
-hi! link perlSubPrototype        DraculaOrangeItalic
+hi! link perlSignature           MinimalMistakesOrangeItalic
+hi! link perlSubPrototype        MinimalMistakesOrangeItalic
 
 " Hash keys
-hi! link perlVarSimpleMemberName DraculaPurple
+hi! link perlVarSimpleMemberName MinimalMistakesPurple

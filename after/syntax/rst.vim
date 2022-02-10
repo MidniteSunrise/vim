@@ -1,17 +1,17 @@
-if dracula#should_abort('rst')
+if minimalmistakes#should_abort('rst')
     finish
 endif
 
 hi! link rstComment                             Comment
 hi! link rstTransition                          Comment
-hi! link rstCodeBlock                           DraculaGreen
-hi! link rstInlineLiteral                       DraculaGreen
-hi! link rstLiteralBlock                        DraculaGreen
-hi! link rstQuotedLiteralBlock                  DraculaGreen
-hi! link rstStandaloneHyperlink                 DraculaLink
-hi! link rstStrongEmphasis                      DraculaOrangeBold
-hi! link rstSections                            DraculaPurpleBold
-hi! link rstEmphasis                            DraculaYellowItalic
+hi! link rstCodeBlock                           MinimalMistakesGreen
+hi! link rstInlineLiteral                       MinimalMistakesGreen
+hi! link rstLiteralBlock                        MinimalMistakesGreen
+hi! link rstQuotedLiteralBlock                  MinimalMistakesGreen
+hi! link rstStandaloneHyperlink                 MinimalMistakesLink
+hi! link rstStrongEmphasis                      MinimalMistakesOrangeBold
+hi! link rstSections                            MinimalMistakesPurpleBold
+hi! link rstEmphasis                            MinimalMistakesYellowItalic
 hi! link rstDirective                           Keyword
 hi! link rstSubstitutionDefinition              Keyword
 hi! link rstCitation                            String
