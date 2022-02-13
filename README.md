@@ -2,7 +2,7 @@
 
 > A dark theme for [vim](https://www.vim.org/) or [neovim](https://neovim.io/).
 
-![Screenshot](https://raw.githubusercontent.com/minimal-mistakes/vim/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/minimal-mistakes/vim/main/screenshot.png)
 
 ## Install
 
