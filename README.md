@@ -1,6 +1,6 @@
-# Minimal-Mistakes for [vim](https://www.vim.org/) or [neovim](https://neovim.io/)
+# Minimal-Mistakes for [vim](https://www.vim.org/)
 
-> A dark theme for [vim](https://www.vim.org/) or [neovim](https://neovim.io/).
+> A dark theme for [vim](https://www.vim.org/).
 
 ![Screenshot](https://raw.githubusercontent.com/minimal-mistakes/vim/main/screenshot.png)
 
@@ -22,4 +22,4 @@ If you'd like to contribute to this theme, please read the [contributing guideli
 
 ## License
 
-[GPL-TRC License](./LICENSE)
+[MIT License](./LICENSE)
