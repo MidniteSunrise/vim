@@ -6,7 +6,7 @@
 
 ## Install
 
-All instructions can be found at [minimal-mistakes/vim](https://minimal-mistakes.xyz/apps/code-editors/vim).
+All instructions can be found at [minimal-mistakes/vim](https://minimalmistakes.org/apps/code-editors/vim).
 
 ## Team
 
